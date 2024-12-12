@@ -25,4 +25,7 @@ vim.cmd("noremap <leader>w :up<cr>")
 -- Terminal Mapping
 vim.keymap.set("t", "jk", [[<C-\><C-n>]], opts)
 
+-- Ignore Shada Files
+-- vim.opt.shadafile = "NONE"
+
 require("config.lazy")
