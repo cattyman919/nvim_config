@@ -22,4 +22,7 @@ vim.cmd("nmap <right> <C-w><right>")
 -- Write only if something is changed
 vim.cmd("noremap <leader>w :up<cr>")
 
+-- Terminal Mapping
+vim.keymap.set("t", "jk", [[<C-\><C-n>]], opts)
+
 require("config.lazy")
